@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC
+              "-//W3C//DTD HTML 4.01 Transitional//EN"
+              "http://www.w3.org/TR/html401/loose.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <title>Menu Example</title>
+<script type="text/javascript">
+<!--
+function loadNewPage()
+{
+  var listItem = document.menuForm.newPage.selectedIndex;
+  var newPage = document.menuForm.newPage.options[listItem].value;
+  location.href = newPage;
+}
+//-->
+</script>
+<body>
+Where do you want to go now?
+<br><form method="GET" action="menus.html" name="menuForm">
+<select name="newPage" onchange="loadNewPage();">
+<option value="menus.html">This page
+<option value="http://www.webdatabasebook.com/">The book web site
+<option value="http://www.oreilly.com/">O'Reilly and Associates
+<option value="http://www.hughwilliams.com/">Hugh's homepage
+<option value="http://www.mds.rmit.edu.au/~dave/">Dave's homepage
+</select>
+</form>
+</body>
+</html>

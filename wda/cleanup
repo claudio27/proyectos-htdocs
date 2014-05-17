@@ -1,0 +1,11 @@
+#/bin/csh
+
+  foreach i (*)
+    if -d $i then
+      echo $i
+      cd $i
+      /Library/WebServer/Documents/wda2/cleanup $i
+      rm -f *~
+      cd ..
+    endif
+  end

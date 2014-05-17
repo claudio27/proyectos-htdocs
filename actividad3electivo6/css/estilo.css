@@ -1,0 +1,46 @@
+img{width:100px;}
+#titulo{font-size:32px}
+.grande{width:400px;height:400px;}
+.mini{width:30px;height:20px;margin:5px}
+
+.Error{ border:outset;
+        border-color:red;
+        background:#FFDAB9;}
+.noError{border:"";
+         border-color:"";
+         background:"";}
+
+
+div{border:inset;
+    border-color:grey;
+    background-color:darkkhaki;
+    border-radius: 23px;
+
+}
+
+
+body{ background:black;
+      margin:5% 10% 5% 10%; 
+}
+
+#spBecas{color:red}
+#envio{margin-left:42%;}		 
+label{width:100px;
+      margin-left:30px;}
+
+#header {text-align:center}
+#footer {text-align:center}	 
+#contenido{height:335px; background:grey}	 
+#borde1{float:left;
+        width:49.5%;
+        height:300px;
+}
+.col1{margin-left:30px;}
+.col2{margin-left:160px;}		
+#borde2{float:right;
+        width:49.3%;
+        height:300px;}
+h1{
+    color: whitesmoke;
+    text-align: left;
+}

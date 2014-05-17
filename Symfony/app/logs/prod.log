@@ -1,0 +1,2 @@
+[2012-02-27 20:06:42] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /config" (uncaught exception) at /opt/lampp/htdocs/Symfony/vendor/symfony/src/Symfony/Bundle/FrameworkBundle/EventListener/RouterListener.php line 83 [] []
+[2014-03-27 09:12:31] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /" (uncaught exception) at /opt/lampp/htdocs/Symfony/vendor/symfony/src/Symfony/Bundle/FrameworkBundle/EventListener/RouterListener.php line 83 [] []

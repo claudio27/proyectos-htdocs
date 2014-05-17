@@ -1,0 +1,72 @@
+/* ------------------- */
+/* -- typo.css  -- */
+/* ------------------- */
+
+/* Ja Typo ---*/
+#ja-typo {
+	overflow: hidden;
+}
+
+.ja-typo-blockswrap h1.ja-typo-title {
+	position: static;
+}
+
+ul.ja-typo-list span.icon {
+	left: auto;
+	right: 0;
+}
+
+p.blocknumber {
+	padding: 5px 55px 5px 0 !important
+}
+
+p.blocknumber .bignumber {
+	left: auto;
+	right: 0;
+}
+
+p.ja-typo-icon {
+	padding-left: 0;
+	padding-right: 25px;
+}
+
+p.ja-typo-icon span.icon {
+	left: auto;
+	right: 0;
+}
+
+.ja-typo-bubble .ja-typo-bubblect {
+	border-width: 3px;
+}
+
+*+html .ja-typo-bubble .ja-typo-bubblect {
+	overflow: hidden;
+}
+
+.ja-typo-bubble p.ja-typo-bubble-meta {
+	margin-top: -3px;
+}
+
+.ja-typo-legend {
+	position: static;
+	border-width: 3px;
+}
+
+.ja-typo-legend .legend-title {
+	margin-top: -37px !important;
+	position: static;
+}
+
+div.ja-typo-blockct p {
+	direction: ltr;
+	text-align: right;
+}
+
+span.ja-typo-tag {
+	display: inline-block;
+	margin: 0 5px;
+}
+
+.ja-typo-fieldset {
+	overflow: hidden;
+}

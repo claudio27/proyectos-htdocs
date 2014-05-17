@@ -1,0 +1,32 @@
+
+
+div{border:inset;
+    border-color:grey;
+    background-color:#aabbcc;
+    height: 200px;
+    border-radius: 6px;
+
+}
+
+
+body{ background: #000;
+      margin:5% 10% 5% 10%;
+      color: aliceblue;
+      text-align: center;
+}
+
+
+label{width:200px;
+      margin-left:30px;
+}
+
+#marco{width:40%;
+       text-align:center;
+       margin-left:30%}
+#registro{
+   border:inset;
+    border-color:grey;
+    background-color:#aabbcc;
+    height: 400px;
+    border-radius: 6px;  
+}

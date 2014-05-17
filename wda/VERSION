@@ -1,0 +1,13 @@
+The current version of these files is 1.2
+
+1.0 -- 2nd edition, book version
+
+1.1 -- Bug fixes
+  (1) Changed line 8 of ch11/home.php (Example 11-12) to sessionAuthenticate();
+
+1.2 -- Bug Fixes
+  (1) Changed line 30 of ch11/db.inc (Example 11-2 uses this) to EscapeShellCmd()
+      [thanks to Luke Powers]
+  (2) Changed lines 26 and 30 of ch04/example.4-2.php (Example 4-2) to read
+      as shown in the book [the book is fine, the download was incorrect]
+      [thanks to Cy Unpingco]

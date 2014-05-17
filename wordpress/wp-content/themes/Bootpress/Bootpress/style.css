@@ -1,0 +1,28 @@
+/*
+
+Theme Name: Boot Press
+Theme URI:http://www.online-mastery.com/bootpress
+Description:A Bespoke Wordpress framework using the Twitter Bootstrap
+Author:Steve Woody
+Author URI:http://www.stevewoody.co.uk
+Version:0.0.1
+
+*/
+
+@import url('bootstrap/css/bootstrap.css'); 
+
+
+
+body {
+
+padding-top: 60px;
+
+padding-bottom: 40px;
+
+}
+
+
+
+
+
+

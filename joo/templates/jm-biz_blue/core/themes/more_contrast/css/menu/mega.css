@@ -1,0 +1,71 @@
+.ja-megamenu a.over, .ja-megamenu a.active { color: #fff !important; }
+
+/* lv - 0
+-----------------------------------*/
+/* Styling ---*/
+.ja-megamenu ul.level0 li.mega a.mega {
+	
+	color: black;
+}
+
+
+.ja-megamenu ul.level0 li.over, ul.level0 li.haschild-over {
+	background-color: #003b49;
+}
+
+.ja-megamenu ul.level0 li.active {
+	background-color:#134753;
+}
+
+/* lv - 1 and below
+-----------------------------------*/
+/* Styling ---*/
+.ja-megamenu ul.level1 li.mega { border-top: 1px dotted  #556554; }
+
+.ja-megamenu ul.level1 li.first { border-top: 0; }
+
+.ja-megamenu ul.level1 li.mega a.mega {
+	border: 0;
+}
+
+.ja-megamenu ul.level1 li.over, ul.level1 li.haschild-over {
+	background:none;
+	text-decoration:underline;
+}
+
+ /* CHILD CONTENT
+-----------------------------------*/
+.ja-megamenu .childcontent-inner {
+	background:#003b49;
+	color: #fff;
+}
+
+.ja-megamenu .level1 .childcontent-inner { border:1px solid #fff;}
+
+.ja-megamenu .childcontent .ja-moduletable { color: #fff; }
+
+.ja-megamenu .childcontent .ja-moduletable a {
+	color: #fff;
+	border-bottom: 1px dotted #fff;
+}
+
+.ja-megamenu .childcontent .ja-moduletable h3 {
+	background: none;
+	border-bottom: 1px dotted #fff;
+	text-transform: uppercase;
+}
+
+/* Grouped --- */
+.ja-megamenu .group-title { border-bottom: 1px dotted #fff; }
+
+.ja-megamenu .group-title .menu-title {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 115%;
+}
+
+.ja-megamenu .group-title .menu-desc {
+	color: #fff;
+	padding-left: 0 !important;
+}

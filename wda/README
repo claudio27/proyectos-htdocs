@@ -1,0 +1,244 @@
+Welcome to the README for the source code examples from Web Database Applications with PHP and MySQL, 
+2nd Edition, O'Reilly Media Inc., 2004.
+
+Author: Hugh E. Williams, 2001-4
+
+Contents:
+
+o	License info
+o	General notes
+o	Chapter specific notes
+
+---
+
+License information
+
+Unless otherwise stated, the source code distributed with the book can be
+redistributed in source or binary form so long as an acknowledgment appears
+in derived source files.
+The citation should list that the code comes from Hugh E. Williams and David 
+Lane, "Web Database Application with PHP and MySQL" published by O'Reilly
+Media Inc. (formerly O'Reilly and Associates). 
+
+This code is under copyright and cannot be included in any other book,
+publication, or educational product without permission from O'Reilly Media
+Inc. No warranty is attached; we cannot take responsibility for errors 
+or fitness for use.
+
+---
+
+General notes
+
+This package contains PHP source code, databases, include files, and
+templates for Chapters 2 to 14, and Appendices F and H. You will find the
+files in separate directories, each named for the chapter or appendix the
+files come from.
+
+Unless otherwise stated in the Chapter specific notes later in this README,
+all code works with PHP 4.3 or later, and MySQL 4.0 or later. Any version of
+the Apache web server (or another web server configured to run PHP) should
+work ok.
+
+To use and view the source, you should follow the instructions in Appendices
+A to C, depending on your platform. Updates to the Appendix A to C installation 
+guides can be found at http://www.webdatabasebook.com/install-guides
+You should also read and follow the Chapter specific instructions later in
+this README.
+
+After doing this, to view the source and run the examples, load the
+index.html in this directory in your browser by loading it as: 
+
+http://127.0.0.1/wda/index.html
+
+Some directories contain "databases" directories, and more information about
+these can be found in the Chapter specific notes later in this README.
+
+Some directories contain "other-examples" directories, and these contain
+other useful snippets of code from the chapters.
+Some information about these can be found in the Chapter specific notes 
+later in this README.
+
+The downloads for Chapters 16 to 20 (Hugh and Dave's Online Winestore) and
+the winestore database are separate. See the book or http://www.webdatabasebook.com/ 
+for more information.
+
+There are no downloadable files for the Preface, Chapter 1, Chapter 15, and
+Appendices D, E, and G.
+
+---
+
+Chapter specific notes
+
+Chapter 2
+- No additional information
+
+Chapter 3
+- No additional information
+
+Chapter 4
+
+- To use the following examples, you need PHP5:
+  example.4-3.php
+  example.4-4.php
+  example.4-5.php
+  example.4-6.php
+  example.4-7.php
+  example.4-8.php
+  example.4-9.php
+  example.4-10.php
+
+Chapter 6
+- To use the examples, modify the file ch06/db.inc. Replace "fred" and "shhh"
+  with the username and password you chose when installing wda.zip in
+  Appendices A to C.
+
+Chapter 7
+- To use the examples, modify the file ch07/db.inc. Replace "fred" and "shhh"
+  with the username and password you chose when installing wda.zip in
+  Appendices A to C.
+
+- PEAR must configured, and the HTML_Template_IT package must be installed
+  to use the examples. Follow the instructions in Chapter 7 and Appendices A
+  to C to do this.
+
+- Selected additional examples can be found in ch07/other-examples
+
+Chapter 8
+- To use the examples, modify the file ch08/db.inc. Replace "fred" and "shhh"
+  with the username and password you chose when installing wda.zip in
+  Appendices A to C.
+
+- PEAR must configured, and the HTML_Template_IT package must be installed
+  to use the examples. Follow the instructions in Chapter 7 and Appendices A
+  to C to do this.
+
+- Create the phonebook database. You can follow the instructions
+  in Chapter 8, or you can load the file ch08/databases/telephone.sql
+  that's included in this distribution using your root user. To load a database, 
+  run the MySQL command interpreter/monitor with -uroot, and type:
+
+  mysql> source ch08/databases/telephone.sql
+
+  Replace the forward slashes with back slashes if you're using Microsoft Windows.
+
+- Create the identifiers table. You can follow the instructions
+  in Chapter 8, or you can load the file ch08/databases/identifiers.sql
+  that's included in this distribution using your root user. To load a database, 
+  run the MySQL command interpreter/monitor with -uroot, and type:
+
+  mysql> source ch08/databases/identifiers.sql
+
+  Replace the /s with \s if you're using Microsoft Windows.
+
+Chapter 9
+- To use the examples, modify the file ch09/db.inc. Replace "fred" and "shhh"
+  with the username and password you chose when installing wda.zip in
+  Appendices A to C.
+
+- PEAR must configured, and the HTML_Template_IT package must be installed
+  to use the examples. Follow the instructions in Chapter 7 and Appendices A
+  to C to do this.
+
+- Selected additional examples can be found in ch09/other-examples
+
+- JavaScript must be enabled in your browser to use the examples
+
+Chapter 10
+- To use the examples, modify the file ch10/db.inc. Replace "fred" and "shhh"
+  with the username and password you chose when installing wda.zip in
+  Appendices A to C.
+
+- PEAR must configured, and the HTML_Template_IT package must be installed
+  to use the examples. Follow the instructions in Chapter 7 and Appendices A
+  to C to do this.
+
+Chapter 11
+- To use the examples, modify the file ch11/db.inc. Replace "fred" and "shhh"
+  with the username and password you chose when installing wda.zip in
+  Appendices A to C.
+
+- PEAR must configured, and the HTML_Template_IT package must be installed
+  to use the examples. Follow the instructions in Chapter 7 and Appendices A
+  to C to do this.
+
+- Selected additional examples can be found in ch11/other-examples
+
+- To use the authentication examples (11-7 to 11-18), you need to do the
+  following steps:
+	(1) Create the authentication database. You can follow the instructions
+        in Chapter 11, or you can load the file ch11/databases/authentication.sql
+        that's included in this distribution using your root user. To load a database, 
+        run the MySQL command interpreter/monitor with -uroot, and type:
+
+        mysql> source ch11/databases/authentication.sql
+ 
+        Replace the /s with \s if you're using Microsoft Windows.
+
+    (2) Create a web site user. You can create a user "hugh" with a password "dave"
+        using the script ch11/other-examples/ch11.create.user.php that's included in this
+        distribution. Run it once after creating the authentication database.
+
+Chapter 12
+- No additional information
+
+Chapter 13
+
+- To use the examples, modify the file ch13/db.inc. Replace "fred" and "shhh"
+  with the username and password you chose when installing wda.zip in
+  Appendices A to C.
+
+- PEAR must configured, and the HTML_Template_IT package must be installed
+  to use the examples. Follow the instructions in Chapter 7 and Appendices A
+  to C to do this.
+
+- We have included version 009 of the R&OS's pdf-php library in the ch13
+  directory, including the fonts in the directory ch13/fonts. You should
+  check http://www.ros.co.nz/pdf for the latest version, license conditions,
+  and other information concerning this package.
+
+Chapter 14
+
+- To use the examples in this chapter, you need PHP5.
+
+- PEAR must configured, and the HTML_Template_IT package must be installed
+  to use the examples. Follow the instructions in Chapter 7 and Appendices A
+  to C to do this.
+
+Appendix F
+
+- To use the examples, modify the file appf/db.inc. Replace "fred" and "shhh"
+  with the username and password you chose when installing wda.zip in
+  Appendices A to C.
+
+- PEAR must configured, and the HTML_Template_IT package must be installed
+  to use the examples. Follow the instructions in Chapter 7 and Appendices A
+  to C to do this.
+
+- To use the session table examples (F-1 to F-8), you need to do the
+  following steps:
+	(1) Create the PHPSESSION table in the winestore database. You can follow the instructions
+        in Appendix F, or you can load the file appf/databases/session.sql
+        that's included in this distribution using your root user. To load a database, 
+        run the MySQL command interpreter/monitor with -uroot, and type:
+
+        mysql> source appf/databases/session.sql
+ 
+        Replace the /s with \s if you're using Microsoft Windows.
+
+    (2) Set up the session configuration in the php.ini file.
+        Change the following settings:
+
+           session.save_handler = user
+           session.save_path = winestore
+           session.name = PHPSESSION
+
+        After changing php.ini, you need to restart your Apache for the settings to
+        take effect. More detail on this can be found in Appendix F.
+
+
+Appendix H
+
+- To use Appendix H, you need MySQL 4.1 or later.
+
+- To use Example H-2, you need to install the mysqli library by following
+  the instructions in Appendix H. It won't work with most standard installs.

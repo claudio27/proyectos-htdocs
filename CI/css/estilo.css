@@ -1,0 +1,22 @@
+img{width:100px;}
+
+div{border:inset;
+    border-color:grey;
+    background-color:#aabbcc;
+ 
+}
+	
+	
+body{ background:#B0D4DE;
+	  margin:5% 10% 5% 10%; 
+	   }
+		  
+	 
+label{width:200px;
+     margin-left:30px;
+	 }
+	 
+#marco{width:40%;
+text-align:center;
+margin-left:30%}
+		

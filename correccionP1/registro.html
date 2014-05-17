@@ -1,0 +1,72 @@
+<!DOCTYPE html >
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<html>
+  <head>
+      <title>Publicacion</title>
+      <link type="text/css" rel="stylesheet" href="estilo.css" >
+	  <script src="script.js" type="text/javascript"></script>
+</head>
+<body>
+
+<div id="registro">
+
+  <form  name="fregistro"  action="index.html" method="post" onSubmit="return validaFin()">
+      
+        <p><label for="idNombre">Nombre: <input type="text" id="idNombre" name="txtNombre" onBlur="valida(this,'spNombre')" />
+       <span id="spNombre"></span>
+       </p>
+       <p>
+       <label for="idApellido">Apellido: <input type="text" id="idApellido" name="txtApellido" onBlur="valida(this,'spApellido')" />
+       <span id="spApellido"></span>
+       </p>
+       <p>
+       <label for="idMasculino">Sexo: <input type="radio" id="idMasculino" name="rdSexo" checked="checked" />Masculino
+                                      <input type="radio" id="idFemenino" name="rdSexo" />Femenino
+       </p>
+       <p>
+       <label for="idCorreo">Correo: <input type="text" id="idCorreo" name="txtCorreo" onBlur="validarEmail(this,'spCorreo')" />
+       <span id="spCorreo"></span>
+       </p>
+
+
+       <p>
+       <label for="idPubli">Publicacion: <input type="date" id="idPubli" name="txtPubli" onBlur="valida(this,'spPubli')"/>
+       <span id="spPubli"></span>
+       </p>
+
+       <p>
+       <label for="idTitulo">Titulo: <input type="text" id="idTitulo" name="txtTitulo" onBlur="valida(this,'spTitulo')" />
+       <span id="spTitulo"></span>
+       </p>
+            
+       <p>
+       <label for="idCategoria">Categoria: <input type="text" id="idCategoria" name="txtCategoria" onBlur="valida(this,'spCategoria')" />
+       <span id="spCategoria"></span>
+       </p>
+
+       <p>
+       <label for="idDesarrollo">Desarrollo: <br /><textarea cols="30" rows="7" id="idDesarrollo" name="txtDesarrollo" onBlur="valida(this,'spDesarrollo')" ></textarea>
+       <span id="spDesarrollo"></span>
+       </p><br> 
+
+
+
+        <img id="idImagen" src="guerra.jpg" alt="NO ENCONTRADA" /> <br />
+       <label>seleccione Imagen</label> <br />
+       <img src="guerra.jpg" alt="guerra" class="mini" onClick="leeImagen(this)" />
+       <img src="tecnologia.jpg" alt="nacional" class="mini" onClick="leeImagen(this)" />
+       <img src="deporte.jpg" alt="deportes" class="mini" onClick="leeImagen(this)" />
+       <br />
+
+  <input type="submit" value="ENVIAR" />
+</form>
+
+
+
+
+</div>
+
+
+
+</body>
+</html>

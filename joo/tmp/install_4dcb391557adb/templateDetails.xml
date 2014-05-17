@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="template" version="1.0.0">
+	<name>247shock_black_104</name>
+	<creationDate>30/11/05</creationDate>
+	<author>247studios & joomlateam</author>
+	<copyright>GNU/GPL</copyright>
+	<authorEmail>templates@joomlateam.com</authorEmail>
+	<authorUrl>http://www.joomlateam.com</authorUrl>
+	<version>1.0</version>
+	<description>This is the cool 247shock (Black) Template from joomlateam.com! We hope u like it!</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>splitmenu.php</filename>
+		<filename>template_thumbnail.png</filename>
+	</files>
+	<images>
+		<filename>images/247shock.png</filename>
+		<filename>images/arrow.png</filename>
+		<filename>images/back.png</filename>
+		<filename>images/back_content.png</filename>
+		<filename>images/bottom.png</filename>
+		<filename>images/head.png</filename>
+		<filename>images/head_center.png</filename>
+		<filename>images/head_left.png</filename>
+		<filename>images/head_right.png</filename>
+		<filename>images/top_back.png</filename>
+		<filename>images/indent1.png</filename>
+		<filename>images/left_line.png</filename>
+		<filename>images/right_line.png</filename>
+		<filename>images/modul.jpg</filename>
+		<filename>images/top_right.png</filename>
+		<filename>images/top_left.png</filename>
+		<filename>images/top_left.gif</filename>
+		<filename>images/line.gif</filename>
+		<filename>images/but.gif</filename>
+		<filename>images/space.gif</filename>
+		<filename>images/headline.gif</filename>
+		</images>
+	<css>
+		<filename>css/template_css.css</filename>
+	</css>
+</mosinstall>

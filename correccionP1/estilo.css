@@ -1,0 +1,27 @@
+img{width:200px;height:200px;}
+.grande{width:400px;height:400px;}
+.mini{width:30px;height:20px;margin:5px}
+
+.Error{ border:outset;
+        border-color:red;
+        background:#FFDAB9;}
+.noError{border:"";
+          border-color:"";
+		  background="";}
+
+span{color:red}	
+
+div{border:inset;
+    border-color:grey;
+    background-color:#aabbcc;
+    text-align:center;
+    width:46%;
+}
+	
+	
+body{ background:#DCDCDC;
+	  margin:5% 10% 5% 10%; 
+      text-align:center;				  
+	      }
+
+		 

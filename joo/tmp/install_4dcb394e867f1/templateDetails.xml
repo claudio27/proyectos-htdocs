@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="template" version="1.0.13">
+	<name>Aha Terra</name>
+	<creationDate>18/01/08</creationDate>
+	<author>Gerhard Lang</author>
+	<copyright>AHA Design</copyright>
+	<authorEmail>gerhard-lang@ahadesign.eu</authorEmail>
+	<authorUrl>http://www.ahadesign.eu</authorUrl>
+	<version>1.0</version>
+	<description>Free XHTML-Template created by AHA Design. Tested on IE 6+7, Firefox, Opera, Safari, Konqueror.
+	You want remove copyright and backlink?
+	Please contact us.
+	Visit http://www.ahadesign.eu for further information or write an email.
+	Fluides Template ohne Tabellen. Den CSS- und XHTML-Richtlinien entsprechend.
+	Bei Fragen, Problemen, konstruktiver Kritik,
+	oder einfach positivem Feedback, bitte einen Kommentar zum Template
+	auf http://www.ahadesign.eu in die Template-Gallerie schreiben, oder das Forum besuchen.
+	Das Forum ist zu erreichen unter: http://www.forum.ahadesign.eu
+	Das Template wurde für Joomla ab Version 1.0.xx entwickelt.
+	
+	Das Copyright und der Backlink können gegen eine kleine Gebühr von € 15.- entfernt werden.
+	Dazu bitte eine E-Mail an order@ahadesign.eu schreiben.
+	
+	Um den Seitennamen zu entfernen weil zb. eine Grafik benutzt werden soll,
+	in der template_css.css folgendes auskommentieren:
+	/*text-indent: -5000px;*/
+	Also die Zeichen / und * entfernen.
+	Das Logo kann ebenfalls ausgetauscht werden.
+	
+	Wer eine genaue Beschreibung möchte, kann das Forum unter www.forum.ahadesign.eu nutzen.
+	
+	Es können acht zusätzliche Module verwendet werden. 
+	Das Modul top befindet sich rechts im Header und hat eine feste Größe.
+	Das Modul newsflash befindet sich oben im Content.
+	Das Modul footer befindet sich unterhalb des normalen Footers.
+	Das Modul advert1 befindet sich direkt unter pathway und erstreckt sich immer über 100%.
+	Die Module advert2, user1, user2 und user5 befinden sich unter advert1
+	und werden nebeneinander dargestellt. Je nach Anzahl dieser Module,
+	passt sich die Größe an. Ohne advert1 stehen auch diese Module direkt unter pathway.
+	
+	Das Template ist sowohl für die private, als auch für die kommerzielle Nutzung völlig kostenlos. 
+	Das Template und seine Inhalte, insbesondere die Bilder, sind und bleiben alleiniges Eigentum von AHA Design. 
+	Die Bereitstellung des Templates zum Download oder in irgendeiner anderen Weise, 
+	ist ohne schriftliche Einwilligung von AHA Design nicht gestattet.
+	Ein Verkauf des Templates wird hiermit ausdrücklich untersagt.
+	Das Template kann in beliebiger Weise angepasst und verändert werden.
+	</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>template_thumbnail.png</filename>
+	</files>
+	<images>
+		<filename>images/breadleft.png</filename>
+		<filename>images/breadright.png</filename>
+		<filename>images/footer_left.png</filename>
+		<filename>images/footer_right.png</filename>
+		<filename>images/header_left.png</filename>
+		<filename>images/header_right.png</filename>
+		<filename>images/hornav.png</filename>
+		<filename>images/indent1.png</filename>
+		<filename>images/indent2.png</filename>
+		<filename>images/indent3.png</filename>
+		<filename>images/indent4.png</filename>
+		<filename>images/lbottom.png</filename>
+		<filename>images/lbottom_border.png</filename>
+		<filename>images/logo.png</filename>
+		<filename>images/ltop.png</filename>
+		<filename>images/ltop_border.png</filename>
+		<filename>images/narrow.png</filename>
+		<filename>images/narrow_hover.png</filename>
+		<filename>images/rarrow.png</filename>
+		<filename>images/rarrow_hover.png</filename>
+		<filename>images/rbottom.png</filename>
+		<filename>images/rbottom_border.png</filename>
+		<filename>images/rtop.png</filename>
+		<filename>images/rtop_border.png</filename>
+		<filename>images/search.png</filename>
+	</images>
+	<css>
+		<filename>css/left_css.css</filename>
+		<filename>css/right_css.css</filename>
+		<filename>css/leri_css.css</filename>
+		<filename>css/editor_content.css</filename>
+		<filename>css/template_css.css</filename>
+	</css>
+</mosinstall>

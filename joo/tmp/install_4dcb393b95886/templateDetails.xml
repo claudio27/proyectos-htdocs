@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="template">
+  <name>a6greyflash</name>
+  <creationDate>21.12.2004</creationDate>
+  <author>Bob de Wit</author>
+  <copyright>(C) Copyright 2004 active6.com. All rights reserved!</copyright>
+  <authorEmail>bob@active6.com</authorEmail>
+  <authorUrl>www.active6.com</authorUrl>
+  <version>1.0</version>
+  <description>Flash-integrated grey, fixed width template with animated globe and connections header.</description>
+  <files>
+    <filename>favicon.ico</filename>
+    <filename>index.php</filename>
+    <filename>template_thumbnail.png</filename>
+    <filename>a6greyflash.swf</filename>
+  </files>
+  <images>
+    <filename>images/arrow.png</filename>
+    <filename>images/logo_back.gif</filename>
+    <filename>images/menu_bar_back.gif</filename>
+    <filename>images/menu_bar_div.gif</filename>
+    <filename>images/top_bar_back.gif</filename>
+    <filename>images/top_of_page.gif</filename>
+  </images>
+  <css>
+    <filename>css/template_css.css</filename>
+  </css>
+</mosinstall>

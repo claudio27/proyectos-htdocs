@@ -1,0 +1,15 @@
+/*
+Theme Name: Tema con Bootpress
+Theme URI: http://lalalala.cl
+Description: lalalalala descripcion
+Author: Claudio
+Version: 1.0
+License: -----
+License URI: ---
+Tags: -----
+*/
+ 
+@import url('dist/css/bootstrap.css');
+
+@import url('dist/css/jumbotron.css');
+   

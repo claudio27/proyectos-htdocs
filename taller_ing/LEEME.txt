@@ -1,0 +1,26 @@
+Para que la aplicación funcione correctamente es necesario
+editar las configuraciones del archivo php.ini del servidor,
+se deben hacer los siguientes cambios:
+
+
+poner las variables del sistema con estos valores,
+
+max_execution_time = 1000
+max_input_time = 1000
+post_max_size = 100M
+upload_max_filesize = 100M
+
+--------------------------------------------------
+
+
+MYSQL
+
+
+para que funcione correctamente la base de
+datos tiene que estar vacia.
+
+
+localhosttkprof-simple.sql, es el script 
+de la base de datos.
+
+

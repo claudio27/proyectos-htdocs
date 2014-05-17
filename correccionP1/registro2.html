@@ -1,0 +1,80 @@
+<!DOCTYPE html >
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<html>
+  <head>
+      <title>Publicacion</title>
+      <link type="text/css" rel="stylesheet" href="estilo.css" >
+	  <!--script src="script.js" type="text/javascript"></script-->
+</head>
+<body>
+
+<div id="registro">
+
+  <form  name="fregistro"  action="index.html" method="post" onSubmit="return validaFin()">
+      
+        <p><label for="idNombre">Nombre: <input type="text" id="idNombre" name="txtNombre" required autofocus placeholder="Ingrese aquí su nombre" />
+       <span id="spNombre"></span>
+       </p>
+       <p>
+       <label for="idApellido">Apellido: <input type="text" id="idApellido" name="txtApellido" required autofocus placeholder="Ingrese su Apellido" />
+       <span id="spApellido"></span>
+       </p>
+	   <p>
+       <label for="idEdad">Edad: <input type="number" id="idEdad" name="txtEdad" required autofocus placeholder="Ingrese su Edad" />
+       <span id="spEdad"></span>
+       </p>
+	   <p>
+       <label for="idTelefono">Telefono: <input type="tel" id="idTelefono" name="txtTelefono" required autofocus placeholder="Ingrese su Teléfono" />
+       <span id="spTelefono"></span>
+       </p>
+       <p>
+       <label for="idMasculino">Sexo: <input type="radio" id="idMasculino" name="rdSexo" checked="checked" />Masculino
+                                      <input type="radio" id="idFemenino" name="rdSexo" />Femenino
+       </p>
+       <p>
+       <label for="idCorreo">Correo: <input type="email" id="idCorreo" name="txtCorreo" required autofocus />
+       <span id="spCorreo"></span>
+       </p>
+
+
+       <p>
+       <label for="idPubli">Publicacion: <input type="date" id="idPubli" name="txtPubli" required autofocus />
+       <span id="spPubli"></span>
+       </p>
+
+       <p>
+       <label for="idTitulo">Titulo: <input type="text" id="idTitulo" name="txtTitulo" required autofocus placeholder="Escriba un título" />
+       <span id="spTitulo"></span>
+       </p>
+            
+       <p>
+       <label for="idCategoria">Categoria: <input type="text" id="idCategoria" name="txtCategoria" required autofocus placeholder="Ejemplon Deporte" />
+       <span id="spCategoria"></span>
+       </p>
+
+       <p>
+       <label for="idDesarrollo">Desarrollo: <br /><textarea cols="30" rows="7" id="idDesarrollo" name="txtDesarrollo" required autofocus placeholder="Ingrese aquí la noticia"></textarea>
+       <span id="spDesarrollo"></span>
+       </p><br> 
+
+
+
+        <img id="idImagen" src="guerra.jpg" alt="NO ENCONTRADA" /> <br />
+       <label>seleccione Imagen</label> <br />
+       <img src="guerra.jpg" alt="guerra" class="mini" onClick="leeImagen(this)" />
+       <img src="tecnologia.jpg" alt="nacional" class="mini" onClick="leeImagen(this)" />
+       <img src="deporte.jpg" alt="deportes" class="mini" onClick="leeImagen(this)" />
+       <br />
+
+  <input type="submit" value="ENVIAR" />
+</form>
+
+
+
+
+</div>
+
+
+
+</body>
+</html>

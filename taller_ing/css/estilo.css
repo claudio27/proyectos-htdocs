@@ -1,0 +1,46 @@
+/* CSS Document */
+
+h1{
+
+font-family:Arial, Helvetica, sans-serif;
+font-size: 24px;
+background:url(../img/back.gif) repeat-x;
+color: #FFFFFF;
+text-transform:uppercase;
+letter-spacing: 0.1em;
+
+}
+
+
+form {
+
+font:Century, Helvetica, sans-serif;
+border:10px groove #0066FF;
+}
+
+a{
+
+font-family:Arial, Helvetica, sans-serif;
+font-size: 12px;
+color:#FFFFFF;
+border:1px solid #0000FF;
+text-decoration: none;
+background:#0066CC; /* no puede haber 2 atributos del mismo tipo*/
+padding: 4px 4px 4px 24px;
+}
+
+a:hover{
+color:#000000;
+border:1px dashed green;
+background:#00CCFF;
+font-style:oblique;
+}
+
+div{
+font-family:Arial, Helvetica, sans-serif;
+line-height:16px;
+border-top: 1px dotted #0000FF;
+border-bottom:1px dotted #0000FF;
+}
+
+

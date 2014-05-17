@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension
+	version="1.6"
+	type="template"
+	method="upgrade">
+	<name>jm-biz_blue</name>
+	<version>1.0.2</version>
+	<creationDate>10 March 2011</creationDate>
+	<author>jm-experts!</author>
+	<authorEmail>info@jm-experts.com</authorEmail>
+	<authorUrl>http://www.jm-experts.com</authorUrl>
+	<copyright>Copyright (C), Jm-Expert. All Rights Reserved.</copyright>
+	<license>JM-Experts license</license>
+	<description><![CDATA[
+			<h1>jm-biz_blue</h1>
+
+			<a href="http://www.jm-experts.com/"><img src="../templates/jm-biz_blue/template_thumbnail.png" style="border: 4px solid #ccc; padding: 2px; float: left; margin-bottom: 10px;" /></a>
+<div class="clr"></div><br />jm-biz_blue! is the new template by Jm-Experts March 2011. It is free to public.  <a href="http://www.jm-experts.com">www.jm-experts.com</a>.
+<p>Check out our Other Free Joomla Templates:</p>
+<table  border="0" cellpadding="10" cellspacing="0" >
+  <tr>
+    <td><p align="center"><a href="http://www.jm-experts.com/templates/jm-city-reader"><img src="http://www.jm-experts.com/thumbs/jm_city_reader.jpg" alt="Joomla City Reader Template" width="206" height="166" border="0"></a><BR>
+    <a href="http://www.jm-experts.com/templates/jm-city-reader" target="_blank">JM-City Reader</a></p></td>
+    <td><div align="center"><a href="http://www.jm-experts.com/templates/jm-experts-free-joomla-1-5-template"><img src="http://www.jm-experts.com/thumbs/jm_expert.jpg" alt="Joomla Experts Template" width="206" height="166" border="0"></a><BR>
+    <a href="http://www.jm-experts.com/templates/jm-city-reader" target="_blank">JM Experts Template</a></div></td>
+    <td><div align="center"><a href="http://www.jm-experts.com/templates/jm-mica-templater"><img src="http://www.jm-experts.com/thumbs/jm_fun.jpg" alt="JM Mica Template" width="206" height="166" border="0"></a><BR>
+    <a href="http://www.jm-experts.com/templates/jm-mica-template" target="_blank">JM Mica </a></div></td>
+  </tr>
+  <tr>
+    <td><div align="center"><a href="http://www.jm-experts.com/templates/jm-fun-template"><img src="http://www.jm-experts.com/thumbs/jm_mica.jpg" alt="Joomla Fun Template" width="206" height="166" border="0"></a><BR>
+    <a href="http://www.jm-experts.com/templates/jm-fun-template" target="_blank">JM Fun</a></div></td>
+    <td><div align="center"><a href="http://www.jm-experts.com/templates/jm-experts-free-joomla-template-4"><img src="http://www.jm-experts.com/thumbs/jm_tmpl4.jpg" alt="Joomla Template 4" width="206" height="166" border="0"></a><BR>
+    <a href="http://www.jm-experts.com/templates/jm-experts-free-joomla-template-4" target="_blank">Joomla Template 4</a></div></td>
+    <td><div align="center"><a href="http://www.jm-experts.com/templates/jm-design-lab" target="_blank"><img src="http://www.jm-experts.com/thumbs/jm-designlab.jpg" alt="JM Design Lab" width="206" height="166" border="0"><BR >
+    JM-Design Lab</a><a href="http://www.jm-experts.com/templates/jm-city-reader" target="_blank"></a></div></td>
+  </tr>
+  <tr>
+    <td><div align="center"><a href="http://www.jm-experts.com/templates/jm-rainbow"><img src="http://www.jm-experts.com/thumbs/jm-rainbow.jpg" alt="JM Rainbow Template" width="206" height="166" border="0"></a><BR>
+    <a href="http://www.jm-experts.com/templates/jm-rainbow" target="_blank">JM-Rainbow Template</a></div></td>
+    <td><div align="center"><a href="http://www.jm-experts.com/templates/jm-rocket"><img src="http://www.jm-experts.com/thumbs/jm-rocket.jpg" alt="JM rocket" width="206" height="166" border="0"></a><BR>
+    <a href="http://www.jm-experts.com/templates/jm-rocket" target="_blank">JM-Rocket</a></div></td>
+    <td><div align="center"><a href="http://www.jm-experts.com/templates/joomla-simple-template" target="_blank"><img src="http://www.jm-experts.com/thumbs/jm-simple1.jpg" alt="Joomla Simple Template" width="206" height="166" border="0"></a><BR/>
+    <a href="http://www.jm-experts.com/templates/joomla-simple-template" target="_blank">JM City Reader</a></div></td>
+  </tr>
+</table>
+
+			]]></description>
+	<engine>t3</engine>
+	<files>
+		<filename>component.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>info.xml</filename>
+		<filename>params.ini</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>core</folder>
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>info</folder>
+	</files>
+
+ <languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_jm-biz_blue.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_jm-biz_blue.sys.ini</language>
+	</languages>
+	<administration>
+		<languages folder="admin">
+			<language tag="en-GB">en-GB.tpl_jm-biz_blue.ini
+			</language>
+		</languages>
+	</administration>
+
+	<positions>
+		<position>hornav</position>
+		<position>breadcrumbs</position>
+		<position>search</position>
+		<position>banner</position>
+		<position>left</position>
+		<position>right</position>
+		<position>top</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+		<position>user8</position>
+		<position>user9</position>
+		<position>user10</position>
+		<position>user11</position>
+		<position>footer</position>
+		<position>syndicate</position>
+		<position>debug</position>
+		<position>absolute</position>
+	</positions>
+
+	<config>
+		<fields name="params" addfieldpath="/plugins/system/jat3/jat3/core/element">
+		</fields>
+    </config>
+</extension>
